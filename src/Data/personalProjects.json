@@ -1,0 +1,36 @@
+[
+    {
+        "id": "Projet01InfoMétéo",
+		"title": "App info météo",
+		"cover": "",
+		"pictures": [
+
+		],
+		"description": "petit site dynamique qui donne la météo et les 10 dernières informations parues dans l'API Google Actu France",
+		"equipments": [
+			
+		],
+		"tags": [
+			"HTML",
+			"CSS",
+            "Javascript"
+		]
+    },
+	{
+        "id": "Projet02Çadécoiffe",
+		"title": "Ça décoiffe",
+		"cover": "",
+		"pictures": [
+
+		],
+		"description": "Réplique du site que j'ai créé avec WordPress lors de la mise en situation en milieu professionnel",
+		"equipments": [
+			
+		],
+		"tags": [
+			"HTML",
+			"CSS",
+            "Javascript"
+		]
+    }
+]

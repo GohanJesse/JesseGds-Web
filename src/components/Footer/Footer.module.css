@@ -1,0 +1,25 @@
+.footer {
+    height: 200px;
+    width: 100%;
+    background: #111111;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: #975ab6 solid 1px;
+  }
+  
+  .copyright {
+    color: white;
+    font-family: "Lastica", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    align-self: center;
+  }
+  
+  @media (max-width: 768px) {
+    .copyright {
+      font-size: 12px;
+    }
+  }
+  

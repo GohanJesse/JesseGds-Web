@@ -1,0 +1,35 @@
+.gallery {
+  width: 86%;
+  height: auto;
+  border: 1px solid #975ab6;
+  border-radius: 25px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2%;
+}
+
+@media (max-width: 993px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+    height: auto;
+    background: none;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    height: auto;
+    width: 95%;
+    grid-template-columns: repeat(1, 1fr);
+    overflow: hidden;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    grid-gap: 10px;
+  }
+}

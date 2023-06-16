@@ -1,0 +1,35 @@
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.navBar a {
+  color: #975ab6;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-family: "Lastica", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 142.6%;
+}
+
+.navBar .activeLink {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .navBar {
+    grid-gap: 10px;
+  }
+
+  .navBar a {
+    font-size: 12px;
+  }
+
+  .logoHeader {
+    width: 145px;
+  }
+}
