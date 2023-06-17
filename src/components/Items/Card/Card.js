@@ -5,11 +5,11 @@ import { useNavigate } from "react-router-dom";
 
 
 
-export default function Card({ item }) {
+export default function Card({ item, type }) {
   const navigate = useNavigate();
 
   return (
-    <div className={Styles.card} style={{ backgroundImage: `url(${item.cover})` }} onClick={() => navigate(`/Training/${item.id}`)}>
+    <div className={Styles.card} style={{ backgroundImage: `url(${item.cover})` }} onClick={() => navigate(`/Training/${item.id}`, { state: { item, type } })}>
       <p>{item.title}</p>
     </div>
   );
@@ -17,4 +17,5 @@ export default function Card({ item }) {
 
 Card.propTypes = {
   item: PropTypes.object.isRequired,
+  type: PropTypes.string.isRequired,
 };

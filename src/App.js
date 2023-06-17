@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Mains/Home/Home";
 import Skills from "./components/Mains/Skills/Skills";
+import Trainings from "./components/Mains/Trainings/Trainings";
 import Training from "./components/Mains/Training/Training";
 import SelfTraining from "./components/Mains/SelfTraining/SelfTraining";
 import About from "./components/Mains/About/About";
@@ -16,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Skills" element={<Skills />} />
-        <Route path="/Training" element={<Training />} />
+        <Route path="/Trainings" element={<Trainings />} />
         <Route path="/Training/:id" element={<Training />} />
         <Route path="/SelfTraining" element={<SelfTraining />} />
         <Route path="/About" element={<About />} />
@@ -28,3 +29,4 @@ function App() {
 }
 
 export default App;
+

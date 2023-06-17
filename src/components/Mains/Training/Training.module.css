@@ -1,29 +1,91 @@
-.trainingMain {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
+.AccommodationMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ff6060;
 }
 
-.trainingSection {
-    display: flex;
+.blocCarrousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.blocInfoAccommodation {
+  display: flex;
+  width: 85%;
+  height: auto;
+}
+
+.blocDropdownAccommodation {
+  display: flex;
+  align-items: flex-start;
+  height: auto;
+  width: 85%;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.blocDropdownAccommodation button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+}
+
+.dropLeft {
+  padding-right: 32px;
+  width: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 142.6%;
+}
+
+.dropRight {
+  padding-left: 32px;
+  width: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 142.6%;
+}
+
+
+@media (max-width: 768px) {
+  .blocCarrousel {
+    padding-top: 30px;
+  }
+
+  .blocInfoAccommodation {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 90%;
-    height: auto;
-    padding-bottom: 40px;
-    padding-top: 40px;
-}
+  }
 
-.titleSection {
-    color: #975ab6;
-    font-family: 'Lastica', sans-serif;
-    border-bottom: 1px #975ab6 solid;
-    align-self: flex-start;
-    width: 100%;
-    letter-spacing: 2px;
-    word-spacing: 10px;
+  .blocDropdownAccommodation {
+    flex-direction: column;
+    grid-gap: 20px;
+    width: 90%;
+    padding-top: 0;
+
+  }
+
+  .dropLeft {
+    padding-right: 0;
+  }
+
+  .dropRight {
+    padding-left: 0;
+  }
+
+  .blocDropdownAccommodation button {
+    height: 29px;
+    font-size: 13px;
+
+  }
 }

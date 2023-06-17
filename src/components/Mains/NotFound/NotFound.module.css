@@ -1,38 +1,36 @@
 .containerNotfound {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
-    padding-top: 160px;
+    height: auto;
+    grid-gap: 30px;
+    padding-top: 60px;
   }
   
   .h2Notfound {
-    color: #ff6060;
-    font-family: "Montserrat";
+    font-family: "Roboto", sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 288px;
+    font-weight: 500;
+    font-size: 250px;
   }
   
   .pNotfound {
-    font-family: "Montserrat";
+    font-family: "Roboto";
     font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    color: #ff6060;
+    font-weight: 400;
+    font-size: 30px;
   }
   
   .spanNotfound {
     color: #ff6060;
-    font-family: "Montserrat";
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     text-decoration: underline;
     cursor: pointer;
-    padding-top: 150px;
-    padding-bottom: 160px;
+    padding-bottom: 100px;
   }
   
   @media (max-width: 768px) {

@@ -15,7 +15,7 @@ export default function Navbar() {
       </NavLink>
 
       <NavLink
-        to="/Training"
+        to="/Trainings"
         className={({ isActive }) => (isActive ? Styles.activeLink : "")} //isActive fourni avec navLink de react router facilite le changement de style du lien actif
       >
         Folio
