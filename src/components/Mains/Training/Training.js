@@ -48,7 +48,7 @@ export default function Training({ type }) {
     <main className={Styles.TrainingMain}>
       <div className={Styles.blocCarrousel}>
       <Carrousel 
-      pictures={training.pictures}
+      images={training.pictures}
       />
       </div>
       <div className={Styles.blocInfotraining}>
@@ -58,7 +58,7 @@ export default function Training({ type }) {
       </div>
       <div className={Styles.blocDropdownTraining}>
         <div className={Styles.dropLeft}>
-        
+        <p>{training.description}</p>
         </div>
         <div className={Styles.dropRight}>
         

@@ -1,15 +1,12 @@
 [
     {
-        "id": "Projet01InfoMétéo",
+        "id": "ProjetPersonnel-01",
 		"title": "App info meteo",
+		"date": "2022-11",
 		"cover": "",
-		"pictures": [
-
-		],
+		"pictures": [],
 		"description": "petit site dynamique qui donne la météo et les 10 dernières informations parues dans l'API Google Actu France",
-		"equipments": [
-			
-		],
+		"complication": [],
 		"tags": [
 			"HTML",
 			"CSS",
@@ -19,18 +16,14 @@
 	{
         "id": "Projet02Çadécoiffe",
 		"title": "Ca decoiffe",
+		"date": "2022-09",
 		"cover": "",
-		"pictures": [
-
-		],
+		"pictures": [],
 		"description": "Réplique du site que j'ai créé avec WordPress lors de la mise en situation en milieu professionnel",
-		"equipments": [
-			
-		],
+		"complicaton": [],
 		"tags": [
 			"HTML",
-			"CSS",
-            "Javascript"
+			"CSS"
 		]
     }
 ]

@@ -7,7 +7,7 @@ import professionalProjects from '../../../Data/professionalProjects.json';
 
 
 
-export default function Training() {
+export default function Trainings () {
   return (
     <main className={Styles.trainingsMain}>
       <section className={Styles.trainingsSection}>

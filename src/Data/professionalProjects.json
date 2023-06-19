@@ -1,18 +1,17 @@
 [
-    {
-        "id": "Projet01CG3D",
-		"title": "Site de Christophe Guérin 3D",
-		"cover": "",
-		"pictures": [
-
-		],
-		"description": "Site professionnel créer pour un entrepreneur de services anti-nuisible",
-		"equipments": [
-			
-		],
-		"tags": [
-			"HTML",
-			"CSS"
-		]
-    }
+  {
+    "id": "ProjetProfessionel-01",
+    "title": "Site de Christophe Guérin 3D",
+    "date": "2023-06",
+    "cover": "/images/Photo-01-ChristopheGuerin3d.png",
+    "pictures": [
+      "/images/Photo-01-ChristopheGuerin3d.png",
+      "/images/Photo-02-ChristopheGuerin3d.png",
+      "/images/Photo-03-ChristopheGuerin3d.png",
+      "/images/Photo-04-ChristopheGuerin3d.png"
+    ],
+    "description": "Site professionnel créer pour un entrepreneur de services anti-nuisible",
+    "complication": [],
+    "tags": ["HTML", "CSS"]
+  }
 ]
