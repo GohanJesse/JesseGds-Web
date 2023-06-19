@@ -1,10 +1,25 @@
-import React from 'react';
+import React from "react";
 import Styles from "./Skills.module.css";
+import Skill from "../../Items/Skill/Skill";
+import SkillDescription from "../../Items/SkillDescription/SkillDescription";
+import skillsData from "../../../Data/skillsData.json";
+import SoftSkills from "../../Items/SoftSkills/SoftSkills";
 
 export default function Skills() {
+  // console.log(skillsData);
   return (
-    <main className={Styles.SkillsMain}>
-      <iframe width="768" height="432" src="https://miro.com/app/embed/uXjVM-Zztxg=/?pres=1&frameId=3458764557287080219&embedId=655044885535" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+    <main className={Styles.skillsMain}>
+      <div className={Styles.softSkills}>
+        <SoftSkills />
+      </div>
+      <div className={Styles.hardsSkills}>
+      {skillsData.map((skill, index) => (
+          <div key={index}>
+            <Skill title={skill.title} page="skills"/>
+            <SkillDescription description={skill.description} />
+          </div>
+        ))}
+      </div>
     </main>
-  )
+  );
 }

@@ -1,7 +1,27 @@
-.SkillsMain {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 60px;
+.skillsMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  width: 100%;
+  height: auto;
+}
+
+.hardsSkills {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.softSkills {
+    padding: 10px 10px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  height: auto;
 }

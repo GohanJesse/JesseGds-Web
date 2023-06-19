@@ -3,27 +3,49 @@
         "id": "ProjetPersonnel-01",
 		"title": "App info meteo",
 		"date": "2022-11",
-		"cover": "",
-		"pictures": [],
-		"description": "petit site dynamique qui donne la météo et les 10 dernières informations parues dans l'API Google Actu France",
-		"complication": [],
+		"urlGithub": "",
+		"cover": "/images/Photo-01-AppMeteo.png",
+		"pictures": [
+			"/images/Photo-01-AppMeteo.png",
+			"/images/Photo-02-AppMeteo.png"
+		],
+		"description": [
+			"petit site dynamique qui donne la météo et les 10 dernières informations parues dans l'API Google Actu France",
+			"Projet réaliser avant ma formation, donc, clairement bourré d'erreur. C'est le premier projet que je reprends dès la fin de ma formation"
+		],
+		"difficulty": [
+			"Première découverte de Javascript, une étape difficile.","Ce projet a été commencé en Octobre 2022",
+			"Il faut que je le teemine au plus vite, remettre le nez dedans risque de piquer les yeux"
+		],
 		"tags": [
 			"HTML",
 			"CSS",
-            "Javascript"
+            "JS"
 		]
     },
 	{
         "id": "Projet02Çadécoiffe",
 		"title": "Ca decoiffe",
 		"date": "2022-09",
-		"cover": "",
-		"pictures": [],
-		"description": "Réplique du site que j'ai créé avec WordPress lors de la mise en situation en milieu professionnel",
-		"complicaton": [],
+		"urlGithub": "",
+		"cover": "/images/Photo-01-Decoiffe.png",
+		"pictures": [
+			"/images/Photo-01-Decoiffe.png",
+			"/images/photo-02-Decoiffe.png",
+			"/images/Photo-03-Decoiffe.png"
+		],
+		"description": [
+			"Réplique du site que j'ai créé avec WordPress lors de la mise en situation en milieu professionnel faite avant d'entrer dans ma formation.",
+			"Étant le premier site que j'ai fait et ce sur un CMS, le travaille c'est plus tourner d'un point de vue design et c'est à ce moment là que j'ai su qu'il me faudra étuidé un peu l'UX et l'UI design !",
+			"J'ai pu également prendre en main WordPress que je n'avais jamais utilisé. J'ai perdu récement le site suite à une faille qu'avait ELEMENTOR.",
+			"Ce projet personnel reprend ce site. Il me faut retourner dessus afin de l'améliorer et le finir."
+		],
+		"difficulty": "Aucune pour le moment, projet pas terminé !",
 		"tags": [
 			"HTML",
 			"CSS"
 		]
     }
 ]
+
+

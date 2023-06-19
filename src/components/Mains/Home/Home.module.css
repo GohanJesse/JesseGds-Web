@@ -1,0 +1,33 @@
+.homeMain {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.sectionTitle {
+    font-family: 'Lastica', sans-serif;
+    color: #975ab6;
+}
+
+.skillTrainingBloc {
+    width: 60%;
+}
+
+.skillSection {
+    font-family: "Roboto", sans-serif;
+    color: aliceblue;
+}
+
+.trainingSection {
+
+}
+
+.aboutBloc {
+    width: 30%;
+}
+
+.aboutSection {
+    
+}

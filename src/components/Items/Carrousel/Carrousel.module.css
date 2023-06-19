@@ -4,27 +4,15 @@
   justify-content: space-between;
   align-items: center;
   background-size: cover;
-  background-position: center;
-  height: 415px;
+  background-position: top;
+  height: 500px;
   width: 85%;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 .arrowLeft, .arrowRight {
   cursor: pointer;
   padding: 0;
-}
-
-.account {
-  position: absolute;
-  color: white;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 142.6%;
-  left: 50%;
-  bottom: 25px;
 }
 
 @media (max-width: 768px) {

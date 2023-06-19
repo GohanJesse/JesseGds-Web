@@ -4,39 +4,38 @@ import Styles from "./Training.module.css";
 import Carrousel from "../../Items/Carrousel/Carrousel";
 import InfoTraining from "../../Items/InfoTraining/Info.training";
 import trainingProjects from "../../../Data/trainingProjects.json";
-import personalProjects from '../../../Data/personalProjects.json';
-import professionalProjects from '../../../Data/professionalProjects.json';
+// import personalProjects from '../../../Data/personalProjects.json';
+// import professionalProjects from '../../../Data/professionalProjects.json';
 
 export default function Training({ type }) {
-
   const { id } = useParams();
   const urlLocation = useLocation();
   const navigate = useNavigate();
   const [training, setTraining] = useState(urlLocation.state?.item);
 
-  let projects;
-  switch (type) {
-    case "personal":
-      projects = personalProjects;
-      break;
-    case "professional":
-      projects = professionalProjects;
-      break;
-    default:
-      projects = trainingProjects;
-  }
+  // let projects;
+  // switch (type) {
+  //   case "personal":
+  //     projects = personalProjects;
+  //     break;
+  //   case "professional":
+  //     projects = professionalProjects;
+  //     break;
+  //   default:
+  //     projects = trainingProjects;
+  // }
 
   useEffect(() => {
     if (!training) {
-      const foundTraining = trainingProjects.find(item => item.id === id);//recherche du logement en fonction de l'id
+      const foundTraining = trainingProjects.find(item => item.id === id);
       if (foundTraining) {
-        setTraining(foundTraining);//Vérifier si le logement existe et met à jour si ok
+        setTraining(foundTraining);
         // console.log(id);
       } else {
-        navigate('/NotFound');//si le logement n'est pas trouver redirection sur 404
+        navigate('/NotFound');
       }
     }
-  }, [id, training, navigate]);//
+  }, [id, training, navigate]);
 
   //Pour gérer l'erreur si non valide
   if (!training) {
@@ -56,12 +55,14 @@ export default function Training({ type }) {
         training={training} 
         />
       </div>
-      <div className={Styles.blocDropdownTraining}>
-        <div className={Styles.dropLeft}>
+      <div className={Styles.blocDescriptionTraining}>
+        <div className={Styles.descriptionTraining}>
+          <h3 className={Styles.subtitleProject}>Description du Projet</h3>
         <p>{training.description}</p>
         </div>
-        <div className={Styles.dropRight}>
-        
+        <div className={Styles.difficultyTraining}>
+        <h3 className={Styles.subtitleProject}>Difficultes du Projet</h3>
+        <p>{training.difficulty}</p>
         </div>
       </div>
     </main>

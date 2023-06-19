@@ -3,20 +3,34 @@
     "id": "ProjetFormation-01",
     "title": "Site de Booki",
     "date": "2023-01",
+    "urlGithub": "https://github.com/GohanJesse/Booki_18122023",
     "cover": "/images/Photo-01-Booki.png",
     "pictures": [
       "/images/Photo-01-Booki.png",
       "/images/Photo-02-Booki.png",
       "/images/Photo-03-Booki.png"
     ],
-    "description": "Descritpion du projet en question",
-    "complication": [],
-    "tags": ["HTML", "CSS"]
+    "description": [
+      "Au travers de ce projet, j'ai intégrer une page d'accueil à partir d’une maquette.",
+      "J'ai débuté en installant les outils nécessaires et en préparant votre environnement de travail.",
+      "Puis, j'ai découpé la maquette en éléments imbriqués de façon logique",
+      "Des discutions avec mon mentor ont pu m'assurer d'une bonne vision du projet.",
+      "J'ai ensuite entamé le codage en intégrant le header, suivi par un formulaire de recherche, des filtres, et des cartes d'informations.",
+      "J'ai utilisé Flexbox et grid pour faciliter la mise en page.",
+      "Enfin, vous avez rendu votre site adaptatif pour différentes résolutions d'écran grâce aux media queries, et vérifié la qualité de votre code en conformité avec les standards W3C.",
+      "Ce processus méthodique vous a permis de construire un site web professionnel."
+    ],
+    "difficulty": [
+      "En ayant étudié l'HTML et le CSS avant de commencer ma formation, je n'ai pas eu de réelles difficultés lors de ce projet.",
+      "La vrai nouveauté de se projet a été pour moi le responsive que je n'avais pas beaucoup étudié jusque là"
+    ],
+    "tags": ["HTML", "CSS3"]
   },
   {
     "id": "ProjetFormation-02",
     "title": "Porte-folio de Sophie Bluel",
     "date": "2023-03",
+    "urlGithub": "https://github.com/GohanJesse/Porte-folio_Sophie_Bluel04012023",
     "cover": "/images/Photo-01-SophieBluel.png",
     "pictures": [
       "/images/Photo-01-SophieBluel.png",
@@ -26,24 +40,60 @@
       "/images/Photo-05-SophieBluel.png",
       "/images/Photo-06-SophieBluel.png"
     ],
-    "description": "Descritpion du projet en question",
-    "complication": [],
-    "tags": ["HTML", "CSS", "Javascipt"]
+    "description": [
+      "Dans le cadre de ce projet, j'ai d'abord configuré mon environnement de développement en installant Node.js et npm.",
+      "J'ai analysé le code et me suis familiarisé avec l'API à l'aide de Swagger. Ensuite, j'ai créé la page de présentation des travaux en utilisant HTML et JavaScript pour afficher dynamiquement les données récupérées depuis le back-end.",
+      "J'ai également implémenté un filtre pour trier les travaux par catégorie.",
+      "Après cela, j'ai intégré la page de connexion en suivant le design fourni et j'ai rendu le formulaire fonctionnel en permettant l'authentification de l'utilisateur avec redirection et messages d'erreur appropriés.",
+      "J'ai stocké le token d'authentification pour les opérations ultérieures.",
+      "Puis, en tant qu'administrateur connecté, j'ai ajouté une fenêtre modale pour gérer les travaux. J'ai rendu cette modale fonctionnelle pour ajouter de nouveaux médias et géré son ouverture et fermeture.",
+      "J'ai également implémenté la suppression des travaux existants en interagissant avec l/’API et en actualisant le DOM dynamiquement.",
+      "J'ai ensuite ajouté la fonctionnalité d'envoi de nouveaux projets via le formulaire de la modale, en traitant les erreurs et en recevant une réponse de l'API.",
+      "J'ai également mis à jour le DOM dynamiquement pour afficher la nouvelle image sans recharger la page."
+      ],
+    "difficulty": [
+      "Pour ce projet, j'avais commencer un peu avant ma formation à étudier Javascript",
+      "Malgré cette préâration et une compréhension encore abstraite de la mécanique et la logique d'un langage de programmation, J'ai galérer !",
+      "J'ai mis 2 mois pour réaliser le projet, très enrichissant, pour avoir les bases de la manipulation de données et acquérrir les écoutes d'évènements",
+      "La structure de mon code a été, là aussi, un casse tête pendant 2 jours... On apprend de ses erreurs comme on dit !"
+    ],
+    "tags": ["HTML", "CSS", "JS"]
   },
   {
     "id": "ProjetFormation-03",
     "title": "Gestion Projet Qwanta",
     "date": "2023-04",
-    "cover": "/images/Photo-01-NinaCarducci.png",
-    "pictures": [],
-    "description": "Descritpion du projet en question",
-    "complication": [],
+    "cover": "/images/Photo-01-Qwanta.png",
+    "pictures": [
+      "/images/Photo-01-Qwanta.png",
+      "/images/Photo-02-Qwanta.png",
+      "/images/Photo-03-Qwanta.png",
+      "/images/Photo-04-Qwanta.png",
+      "/images/Photo-05-Qwanta.png",
+      "/images/Photo-06-Qwanta.png"
+    ],
+    "description": [
+      "Dans le cadre de mon projet, j'ai été charger de la gestion du développement d'une application nommée `Menu Maker by Qwenta`.",
+      "J'ai commencé par analyser les documents fournis, notamment les spécifications fonctionnelles, maquettes et user stories. J'ai veillé à comprendre clairement les attentes envers le produit, en me familiarisant avec les maquettes Figma et en faisant le lien entre les spécifications fonctionnelles et les user stories.",
+      "J'ai ensuite effectué une veille technique, identifiant les outils, librairies et frameworks pertinents pour la réalisation du projet. Mon objectif était de m'informer sur les dernières tendances technologiques pour optimiser le développement de l'application.",
+      "J'ai synthétisé mes découvertes et les ai intégrées dans le document de spécifications techniques.",
+      "Ensuite, j'ai précisé les besoins techniques du projet en listant les fonctionnalités nécessaires et en proposant des solutions pour chacune. J'ai également réfléchi aux éventuels besoins en matière de développement back-end et d'utilisation d'API.",
+      "J'ai choisi et configuré un outil de gestion de projet pour planifier efficacement les tâches à accomplir. J'ai opté pour un logiciel spécialisé, Trello, pour créer un espace de travail idéal pour gérer le projet. J'ai organisé les tâches en colonnes, en définissant des critères et des étapes de validation.",
+      "J'ai ensuite découpé le projet en différentes tâches, en me concentrant d'abord sur les priorités élevées. J'ai créé des descriptions détaillées et estimé le temps nécessaire pour chaque tâche.",
+      "Pour finir, j'ai préparé une présentation finale consolidant tous les livrables du projet. J'ai veillé à rendre mes diapositives attrayantes tout en restant concis. J'ai intégré des captures d'écran de mon travail et des visuels pour être plus clair, en mettant l'accent sur la méthodologie de développement et la communication."
+    ],
+    "difficulty": [
+      "En ce qui concerne ce projet, la gestion de projet n'est pas ce sur quoi je m'étais préparer et travailler en autodidacte",
+      "Mon niveau de débutant et en apprentissage m'a obliger à faire de grande recherche pour apprendre un maximum sur les technos envisageable pour la réalisation du projet",
+      "L'exploration nécessaire m'a permis de découvrir énormement des librairie et bibliothèque disponible pour facilité le développement de projets divers et variés"
+    ],
     "tags": ["Agile", "veille", "Power Point"]
   },
   {
     "id": "ProjetFormation-04",
     "title": "Porte-folio de Nina Carducci",
     "date": "2023-04",
+    "urlGithub": "https://github.com/GohanJesse/nina_carducci_17032023",
     "cover": "/images/Photo-01-NinaCarducci.png",
     "pictures": [
       "/images/Photo-01-NinaCarducci.png",
@@ -51,14 +101,29 @@
       "/images/Photo-03-NinaCarducci.png",
       "/images/Photo-04-NinaCarducci.png"
     ],
-    "description": "Descritpion du projet en question",
-    "complication": [],
+    "description": [
+      "Lors de ce projet, j'ai opéré une série d'optimisations cruciales sur un site web.",
+      "Dans un premier temps, j'ai analysé le code source en utilisant Lighthouse pour détecter les axes d'amélioration. Puis, j'ai débogué l'application en utilisant les Chrome DevTools afin d'assurer que le site fonctionne sans encombre.",
+      "Ensuite, j'ai dressé une liste d'optimisations potentielles à partir des recommandations de Lighthouse et de mon analyse du code source.",
+      "J'ai concentré mes efforts sur les éléments clés pour améliorer les performances du site, notamment l'optimisation des images et j'ai optimisé le SEO technique en faisant des choix judicieux concernant la sémantique, le CSS et le JavaScript. ",
+      "À l'étape suivante, j'ai également ajouté le référencement local grâce aux microdonnées Schema.org et intégré les balises meta pour les réseaux sociaux, telles que les metas OpenGraph et Twitter Cards et fait la minification des fichiers HTML/CSS/JS.",
+      "L'accessibilité a été une priorité, j'ai donc utilisé WAVE Evaluation Tool pour veiller à ce que le site soit accessible, et j'ai apporté les corrections nécessaires pour obtenir un score élevé dans Lighthouse.",
+      "Enfin, j'ai généré des rapports finaux incluant toutes les modifications effectuées et j'ai créé un cahier de recette détaillé. Mon intervention a abouti à un rapport Lighthouse au vert sur les performances, l'accessibilité, et le SEO, démontrant ainsi la réussite de mon optimisation."
+    ],
+    "difficulty": [
+      "Encore une fois, je n'ai pas eu de grande difficultés avec ce projet",
+      "La revue sémentique du code html m'a permis de faire le relecture et les retouches d'un code n'étant pas le mien",
+      "Le travail effectué sur les images m'a appris à utiliser les nouveaux formats d'images modernes qui sont éfficaces pour les performances générales du site",
+      "Et pour finir, la tenue du rapport à été très intéressante et m'a beaucoup plu !",
+      "De pouvoir résumé les interventions menées dans un document organisé et pro était une première que j'ai beaucoup apprécié"
+    ],
     "tags": ["SEO", "Debug"]
   },
   {
     "id": "ProjetFormation-05",
     "title": "Application Kasa",
     "date": "2023-05",
+    "urlGithub": "https://github.com/GohanJesse/Kasa-App_19042023",
     "cover": "/images/Photo-01-KasaApp.png",
     "pictures": [
       "/images/Photo-01-KasaApp.png",
@@ -67,13 +132,14 @@
       "/images/Photo-04-KasaApp.png"
     ],
     "description": "Descritpion du projet en question",
-    "complication": [],
-    "tags": ["REACT"]
+    "difficulty": "ici, les complication",
+    "tags": ["REACT", "CSS", "JS"]
   },
   {
     "id": "ProjetFormation-06",
     "title": "Mon Vieux Grimoire",
     "date": "2023-06",
+    "urlGithub": "https://github.com/GohanJesse/mon-vieux-grimoire",
     "cover": "/images/Photo-01-MonVieuxGrimoire.png",
     "pictures": [
       "/images/Photo-01-MonVieuxGrimoire.png",
@@ -82,17 +148,18 @@
       "/images/Photo-04-MonVieuxGrimoire.png"
     ],
     "description": "Descritpion du projet en question",
-    "complication": [],
-    "tags": ["node.js", "Express", "API REST", "MongoDB", "Mongoose"]
+    "difficulty": "ici, les complication",
+    "tags": ["Node.js", "Express", "API REST", "Mongodb", "Mongoose"]
   },
   {
     "id": "ProjetFormation-07",
     "title": "Mon site Jesse Gds Web",
     "date": "2023-03",
-    "cover": "",
-    "pictures": [],
+    "urlGithub": "https://github.com/GohanJesse/JesseGds-Web",
+    "cover": "/images/Photo-01-JesseGdsWeb.png",
+    "pictures": ["/images/Photo-01-JesseGdsWeb.png"],
     "description": "Descritpion du projet en question",
-    "complication": [],
-    "tags": ["React"]
+    "difficulty": "ici, les complication",
+    "tags": ["React", "CSS", "JS"]
   }
 ]

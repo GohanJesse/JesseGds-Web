@@ -3,15 +3,24 @@
     "id": "ProjetProfessionel-01",
     "title": "Site de Christophe Guérin 3D",
     "date": "2023-06",
+    "urlGithub": "https://github.com/Christophe-Guerin/christopheguerin-3d",
+    "urlSite": "https://christopheguerin3d.fr/",
     "cover": "/images/Photo-01-ChristopheGuerin3d.png",
     "pictures": [
       "/images/Photo-01-ChristopheGuerin3d.png",
       "/images/Photo-02-ChristopheGuerin3d.png",
-      "/images/Photo-03-ChristopheGuerin3d.png",
       "/images/Photo-04-ChristopheGuerin3d.png"
     ],
-    "description": "Site professionnel créer pour un entrepreneur de services anti-nuisible",
-    "complication": [],
+    "description": [
+      "Site professionnel créer pour un entrepreneur de services anti-nuisible",
+      "Réaliser en période de formation, il m'a permis d'appliquer certaines choses vu lors de ma formation",
+      "Il sera amené à évoluer dans peu de temps pour correspondre plus aux attentes du moment.",
+      "l'ajout d'animations est necessaire pour y parvenir. Prochain objectif d'autodidacte !"
+    ],
+    "difficulty": [
+      "Encore une fois, la création du design général du site à été la difficulté du projet",
+      "En ce qui concerne la conception du site et son intégration, ça n'a pas été le problème une fois les fondation du design trouver"
+    ],
     "tags": ["HTML", "CSS"]
   }
 ]

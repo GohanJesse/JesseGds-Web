@@ -22,7 +22,6 @@ export default function Carrousel({ images }) {
     <div className={Styles.carrousel} style={{ backgroundImage: `url(${images[index]})` }}>
       <img src={ArrowLeft} className={Styles.arrowLeft} onClick={leftClick} alt="Left arrow"/>
       <img src={ArrowRight} className={Styles.arrowRight} onClick={rightClick} alt="Right arrow"/>
-      <p className={Styles.account}>{index + 1}/{images.length}</p>
     </div>
   )
 }
