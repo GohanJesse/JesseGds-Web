@@ -1,13 +1,12 @@
 .hardSkillsBloc {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
     padding: 20px 5px;
     grid-gap: 15px;
     border: solid 1px #975ab6;
     border-radius: 15px;
-     
+    width: 80%;
 }
 
 .logoHeight {
@@ -18,12 +17,13 @@
     height: 40px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
     .hardSkillsBloc {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
-        grid-gap: 10px;
+        grid-gap: 20px;
+        width: 100%;
 
     }
     .logoHeight {
@@ -38,6 +38,20 @@
     /* Styles pour tablettes en mode paysage */
 }
 
-@media screen and (max-width: 1200px) {
-    /* Styles pour ordinateurs de bureau de petite à moyenne taille */
+
+@media screen and (max-width: 768px) {
+    .hardSkillsBloc {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        grid-gap: 10px;
+        width: 100%;
+
+    }
+    .logoHeight {
+        height: 50px;
+    }
+    .logoWidth {
+        height: 30px;
+    }
 }

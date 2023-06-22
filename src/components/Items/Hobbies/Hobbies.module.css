@@ -1,0 +1,12 @@
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #975ab6;
+    border-radius: 15px;
+    padding: 15px;
+    grid-gap: 10px;
+    width: 100%;
+}

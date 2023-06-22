@@ -9,11 +9,11 @@ export default function SoftSkills({ page }) {
 
   return (
     <div className={`${Styles.softSkillBloc} ${homeSoftSkillBloc}`}>
-      <div className={`${Styles.softSkill} ${homeSoftSkill}`}>Autonome</div>
-      <div className={`${Styles.softSkill} ${homeSoftSkill}`}>curieux</div>
-      <div className={`${Styles.softSkill} ${homeSoftSkill}`}>Organisé</div>
-      <div className={`${Styles.softSkill} ${homeSoftSkill}`}>Consciencieux</div>
-      <div className={`${Styles.softSkill} ${homeSoftSkill}`}>Motivé</div>
+      <div className={`${Styles.softSkill} ${homeSoftSkill}`}>Autonomie</div>
+      <div className={`${Styles.softSkill} ${homeSoftSkill}`}>curiosité</div>
+      <div className={`${Styles.softSkill} ${homeSoftSkill}`}>Organisation</div>
+      <div className={`${Styles.softSkill} ${homeSoftSkill}`}>Rigueur</div>
+      <div className={`${Styles.softSkill} ${homeSoftSkill}`}>Motivation</div>
       <div className={`${Styles.softSkill} ${homeSoftSkill}`}>Communication</div>
     </div>
   )

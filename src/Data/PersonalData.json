@@ -2,10 +2,14 @@
     "name": "Jessy",
     "surname": "Godais",
     "pictures": "/images/Photo-JessyGodais.png",
-    "description": "",
+    "description": [
+        "Bonjour ! Comme vous avez pu le voir, je m'appelle Jessy, je suis développeur web et web mobile junior.",
+        "Mon objectif est de finir full Stack Sénior dans le développement web et mobile, y compris dans les applications mobiles. Je souhaite découvrir de nouvelles choses, développer de nombreux projets de toutes sorte.",
+        "Je souhaite également apprendre à coder et programmer des jeux, en tant que Gamer, ça parait logique, mais je pense vraiment pouvoir m'éclater la dedans. Voilà tout ce qui me motive !"
+    ],
     "year": "34 ans",
     "car": "permis B",
-    "job": "Développeur web et web mobile",
+    "job": "Developpeur web et web mobile",
     "adress": "25 rue du bâtiment",
     "postal": "81200",
     "country": "Mazamet, France",
@@ -20,7 +24,7 @@
         "Étant geek et gamer, le numérique et la tech est un milieu que je considère comme un hobbi. On va pas rentrer dans le cliché du mec passionné, mais c'est clairement un domaine dans lequel je m'éclate ! Je n'avais, pourtant, jamais imaginé ou penser apprendre des langages informatiques. Loin de mes études qui étaient les sciences et techniques de laboratoire, ça me semblait même peu accessible autrement que par l'université.",
         "Mais la magie d'internet a opéré et a pu me montrer qu'il était possible de mettre à profit mon autodidaxie et par la suite, d'intégrer une formation en full remote et de me former dans le développement web !"
     ],
-    "motive": [
+    "motivations": [
         "Arrivé à la fin de ma formation de développeur web, je cherche maintenant à étendre mes connaissances et développer plus encore mes compétences.",
         "La pratique étant la meilleur des formatrices, je peux désormais consacré mon temps dans la réalisation de projet et l'apprentissage de nouvelles technologies.",
         "Parmis mes prochains objectifs, Firebase, Typescript et Tailwind sont les sujets de mon travail d'autodidacte à venir.",

@@ -1,7 +1,10 @@
 import React from 'react';
 import Styles from "./HardSkills.module.css";
 
-export default function HardSkills() {
+export default function HardSkills({ page }) {
+
+  // const homeHardskill = page === 'home' ? Styles.homeHardskills : Styles.sofSkill;
+
   return (
     <div className={Styles.hardSkillsBloc}>
         <img className={Styles.logoHeight} src='/images/Langage.png' alt='HTML CSS Javascript'/>

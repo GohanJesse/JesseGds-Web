@@ -1,4 +1,4 @@
-.motiveBloc {
+.descriptionMe {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,9 +8,3 @@
     border-bottom: #975ab6 1px solid;
     padding-bottom: 20px;
 }
-
-.aboutStyleMotivations {
-    border-bottom: none;
-    padding-bottom: none;
-}
-
