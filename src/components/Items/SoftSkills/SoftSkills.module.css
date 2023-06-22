@@ -1,4 +1,61 @@
 .softSkillBloc {
-    height: 50px;
-    width: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  padding: 40px 0;
+  border-top: #974ab6 solid 1px;
+  border-bottom: #974ab6 solid 1px;
+}
+.softSkill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: #974ab6;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 15px;
+}
+
+.homeSoftskillsBloc {
+  flex-direction: column;
+  grid-gap: 15px;
+  padding: 20px 10px;
+  border: 1px solid #975ab6;
+  border-radius: 15px;
+}
+
+.homeSoftskills {
+  font-size: 0.7rem;
+  padding: 7px 7px;
+  width: 100%;
+}
+
+@media (max-width: 1300px) {
+  .softSkill {
+    font-size: 0.9rem;
+  }
+  .softSkillBloc {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+    .softSkill {
+        font-size: 0.8rem;
+      }
+}
+
+@media (max-width: 768px) {
+    .softSkillBloc {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .softSkill {
+        font-size: 0.7rem;
+    }
 }

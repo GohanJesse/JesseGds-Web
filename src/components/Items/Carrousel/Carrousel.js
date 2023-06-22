@@ -3,7 +3,8 @@ import Styles from "./Carrousel.module.css";
 import ArrowLeft from "./arrow_back.png";
 import ArrowRight from "./arrow_forward.png";
 
-export default function Carrousel({ images }) {
+export default function Carrousel({ images, page }) {
+  const homeCarrousel = page === 'home' ? Styles.homeCarrousel : Styles.carrousel;
   const [index, setIndex] = useState(0);
 
   const leftClick = () => {
@@ -19,7 +20,7 @@ export default function Carrousel({ images }) {
   }
 
   return (
-    <div className={Styles.carrousel} style={{ backgroundImage: `url(${images[index]})` }}>
+    <div className= {`${Styles.carrousel} ${homeCarrousel}`} style={{ backgroundImage: `url(${images[index]})` }}>
       <img src={ArrowLeft} className={Styles.arrowLeft} onClick={leftClick} alt="Left arrow"/>
       <img src={ArrowRight} className={Styles.arrowRight} onClick={rightClick} alt="Right arrow"/>
     </div>

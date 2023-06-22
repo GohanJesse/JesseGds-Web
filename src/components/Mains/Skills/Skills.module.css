@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 40px;
   padding-bottom: 60px;
   width: 100%;
   height: auto;
@@ -13,10 +12,12 @@
   display: flex;
   flex-direction: column;
   width: 90%;
+  padding: 40px 0;
 }
 
 .softSkills {
     padding: 10px 10px;
+    width: 70%;
 }
 
 .description {
@@ -25,3 +26,16 @@
   padding: 30px;
   height: auto;
 }
+
+@media (max-width: 1130px) {
+  .softSkills {
+    width: 75%;
+  }
+}
+
+@media (max-width: 992px) {
+  .softSkills {
+    width: 90%;
+  }
+}
+

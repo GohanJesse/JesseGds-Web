@@ -10,6 +10,11 @@
   border-radius: 15px;
 }
 
+.homeCarrousel {
+  height: 300px;
+  width: 70%;
+}
+
 .arrowLeft, .arrowRight {
   cursor: pointer;
   padding: 0;
@@ -20,6 +25,11 @@
     width: 90%;
     height: 255px;
     border-radius: 10px;
+  }
+
+  .homeCarrousel {
+    height: 300px;
+    width: 90%;
   }
 
   .arrowLeft {

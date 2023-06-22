@@ -7,21 +7,46 @@
 
 .skillTitle {
   font-family: "Lastica", sans-serif;
+  text-transform: uppercase;
   width: 90%;
-
-}
-
-.homeTitle {
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 26px;
-  letter-spacing: 1px;
-  word-spacing: 2px;
-}
-
-.skillsTitle {
   color: #975ab6;
-  padding: 10px 10px;
+  padding: 10px 0 10px 10px;
   letter-spacing: 2px;
   word-spacing: 2px;
 }
+
+.linkProject {
+  padding: 5px 5px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.linkProject:hover {
+  transform: scale(1.1);
+}
+
+.homeSkillTitle {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  width: 100%;
+}
+
+.linkNone {
+  display: none;
+  border: none;
+}
+
+
+@media (max-width: 992px) {
+  .skillTitle {
+    font-size: 20px;
+  }
+  .linkProject {
+    height: 36px;
+  }
+}
+
+

@@ -1,0 +1,14 @@
+.contactContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    grid-gap: 10px;
+    border-bottom: 1px solid #975ab6;
+    padding: 20px 20px;
+}
+
+.contactLogo {
+    height: 40px;
+    cursor: pointer;
+}

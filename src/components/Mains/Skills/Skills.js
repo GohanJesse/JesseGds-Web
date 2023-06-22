@@ -15,7 +15,7 @@ export default function Skills() {
       <div className={Styles.hardsSkills}>
       {skillsData.map((skill, index) => (
           <div key={index}>
-            <Skill title={skill.title} page="skills"/>
+            <Skill title={skill.title} page="skills" url={skill.url}/>
             <SkillDescription description={skill.description} />
           </div>
         ))}

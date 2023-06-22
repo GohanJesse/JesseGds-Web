@@ -16,10 +16,29 @@
     word-spacing: 2px;
     align-self: center;
   }
+
+  @media (max-width: 1300px) {
+    .copyright {
+      font-size: 16px;
+    }
+  }
+  
+
+  @media (max-width: 992px) {
+    .copyright {
+      font-size: 14px;
+    }
+  }
   
   @media (max-width: 768px) {
     .copyright {
       font-size: 12px;
+    }
+  }
+
+  @media (max-width: 555px) {
+    .copyright {
+      font-size: 10px;
     }
   }
   

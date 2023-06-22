@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from "./SkillDescription.module.css";
-import skillsData from '../../../Data/skillsData.json';
+// import skillsData from '../../../Data/skillsData.json';
 
 
 export default function SkillDescription({ description }) {

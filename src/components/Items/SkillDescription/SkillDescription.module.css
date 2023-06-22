@@ -1,11 +1,18 @@
 .skillDescriptionBloc {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    padding: 30px 10px;
-    grid-gap: 7px;
-    border-left: solid #975ab6 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  padding: 30px 10px;
+  grid-gap: 10px;
+  border-left: solid #975ab6 1px;
 }
+
+@media (max-width: 992px) {
+  .skillDescriptionBloc {
+    grid-gap: 11px;
+  }
+}
+

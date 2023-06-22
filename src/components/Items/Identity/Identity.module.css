@@ -1,0 +1,23 @@
+.identity {
+    display: flex;
+}
+
+img {
+    height: 200px;
+}
+
+.name {
+    font-family: 'Lastica', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.job {
+    font-family: 'Lastica', sans-serif;
+    color: #975ab6;
+    font-size: 14px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding: 10px 0 0 10px;
+}
