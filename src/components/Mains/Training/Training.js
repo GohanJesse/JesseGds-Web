@@ -13,12 +13,12 @@ export default function Training({ type }) {
 
   useEffect(() => {
     if (!training) {
-      const foundTraining = trainingProjects.find(item => item.id === id);
+      const foundTraining = trainingProjects.find((item) => item.id === id);
       if (foundTraining) {
         setTraining(foundTraining);
         // console.log(id);
       } else {
-        navigate('/NotFound');
+        navigate("/NotFound");
       }
     }
   }, [id, training, navigate]);
@@ -28,29 +28,24 @@ export default function Training({ type }) {
     return null;
   }
 
-
   return (
     <main className={Styles.TrainingMain}>
       <div className={Styles.blocCarrousel}>
-      <Carrousel 
-      images={training.pictures.map(picture => picture)}
-      />
+        <Carrousel images={training.pictures.map((picture) => picture)} />
       </div>
       <div className={Styles.blocInfotraining}>
-      <InfoTraining 
-        training={training} 
-        />
+        <InfoTraining training={training} urlGithub={training.urlGithub} />
       </div>
       <div className={Styles.blocDescriptionTraining}>
         <div className={Styles.descriptionTraining}>
           <h3 className={Styles.subtitleProject}>Description du Projet</h3>
-        <p>{training.description}</p>
+          <p>{training.description}</p>
         </div>
         <div className={Styles.difficultyTraining}>
-        <h3 className={Styles.subtitleProject}>Difficultes du Projet</h3>
-        <p>{training.difficulty}</p>
+          <h3 className={Styles.subtitleProject}>Difficultes du Projet</h3>
+          <p>{training.difficulty}</p>
         </div>
       </div>
     </main>
-  )
+  );
 }

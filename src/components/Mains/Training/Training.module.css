@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 60px 0;
 
 }
 
@@ -22,8 +23,9 @@
 .blocDescriptionTraining {
   display: flex;
   align-items: flex-start;
+  justify-content: space-around;
   height: auto;
-  width: 85%;
+  width: 100%;
   padding-bottom: 15px;
   padding-top: 15px;
 }
@@ -37,18 +39,26 @@
 
 .descriptionTraining,
 .difficultyTraining {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   color: white;
-  padding-right: 32px;
   width: 100%;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 142.6%;
+  grid-gap: 20px;
+  padding: 0 20px;
 }
 
 
 
 @media (max-width: 768px) {
+  .TrainingMain {
+    padding-top: 0;
+  }
   .blocCarrousel {
     padding-top: 30px;
   }
@@ -63,14 +73,13 @@
     grid-gap: 20px;
     width: 90%;
     padding-top: 0;
+    padding: 0;
 
   }
 
-  .descriptionTraining {
-    padding-right: 0;
-  }
-
+  .descriptionTraining,
   .difficultyTraining {
-    padding-left: 0;
+    padding: 0;
   }
+
 }
