@@ -13,18 +13,6 @@ export default function Training({ type }) {
   const navigate = useNavigate();
   const [training, setTraining] = useState(urlLocation.state?.item);
 
-  // let projects;
-  // switch (type) {
-  //   case "personal":
-  //     projects = personalProjects;
-  //     break;
-  //   case "professional":
-  //     projects = professionalProjects;
-  //     break;
-  //   default:
-  //     projects = trainingProjects;
-  // }
-
   useEffect(() => {
     if (!training) {
       const foundTraining = trainingProjects.find(item => item.id === id);
@@ -47,7 +35,7 @@ export default function Training({ type }) {
     <main className={Styles.TrainingMain}>
       <div className={Styles.blocCarrousel}>
       <Carrousel 
-      images={training.pictures}
+      images={process.env.PUBLIC_URL + training.pictures}
       />
       </div>
       <div className={Styles.blocInfotraining}>

@@ -9,7 +9,7 @@ export default function Card({ item, type }) {
   const navigate = useNavigate();
 
   return (
-    <div className={Styles.card} style={{ backgroundImage: `url(${item.cover})` }} onClick={() => navigate(`/Training/${item.id}`, { state: { item, type } })}>
+    <div className={Styles.card} style={{ backgroundImage: `url(${process.env.PUBLIC_URL + item.cover})` }} onClick={() => navigate(`/Training/${item.id}`, { state: { item, type } })}>
       <p>{item.title}</p>
     </div>
   );

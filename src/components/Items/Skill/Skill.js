@@ -13,7 +13,7 @@ export default function Skill({ title, page, url }) {
     <div className={Styles.skillBloc}>
         <h2 className={`${Styles.skillTitle} ${titleClass}`}>{title}</h2>
         <div className={`${Styles.linkProject} ${link}`} onClick={() => navigate(`${url}`)}>
-          <img src="/images/Redirection.png" alt="Voir le projet" className={`${Styles.linkimages} ${link}`} />
+          <img src={process.env.PUBLIC_URL + "/images/Redirection.png"} alt="Voir le projet" className={`${Styles.linkimages} ${link}`} />
         </div>
     </div>
     

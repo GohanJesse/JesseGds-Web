@@ -20,7 +20,7 @@ export default function Carrousel({ images, page }) {
   }
 
   return (
-    <div className= {`${Styles.carrousel} ${homeCarrousel}`} style={{ backgroundImage: `url(${images[index]})` }}>
+    <div className= {`${Styles.carrousel} ${homeCarrousel}`} style={{ backgroundImage: `url(${process.env.PUBLIC_URL + images[index]})` }}>
       <img src={ArrowLeft} className={Styles.arrowLeft} onClick={leftClick} alt="Left arrow"/>
       <img src={ArrowRight} className={Styles.arrowRight} onClick={rightClick} alt="Right arrow"/>
     </div>
