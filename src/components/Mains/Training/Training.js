@@ -4,8 +4,6 @@ import Styles from "./Training.module.css";
 import Carrousel from "../../Items/Carrousel/Carrousel";
 import InfoTraining from "../../Items/InfoTraining/Info.training";
 import trainingProjects from "../../../Data/trainingProjects.json";
-// import personalProjects from '../../../Data/personalProjects.json';
-// import professionalProjects from '../../../Data/professionalProjects.json';
 
 export default function Training({ type }) {
   const { id } = useParams();
@@ -35,7 +33,7 @@ export default function Training({ type }) {
     <main className={Styles.TrainingMain}>
       <div className={Styles.blocCarrousel}>
       <Carrousel 
-      images={process.env.PUBLIC_URL + training.pictures}
+      images={training.pictures.map(picture => picture)}
       />
       </div>
       <div className={Styles.blocInfotraining}>
