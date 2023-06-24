@@ -22,8 +22,8 @@ export default function Navbar() {
     >
       <img 
         className={Styles.linkIcon}
-        src={process.env.PUBLIC_URL + "/images/folio.png"}
-        alt="icon compétences"
+        src={process.env.PUBLIC_URL + "/images/Folio.png"}
+        alt="icon folio"
       />
       <span className={Styles.linkName}>Folio</span>
     </NavLink>

@@ -10,7 +10,7 @@ export default function LinksBar() {
 
   return (
     <div className={Styles.contactContainer}>
-        <a href='#'><img className={Styles.contactLogo} src={process.env.PUBLIC_URL + '/images/CV.png'} alt='Curriculum Vitae' /></a>
+        <a href='https://christopheguerin3d.fr/'><img className={Styles.contactLogo} src={process.env.PUBLIC_URL + '/images/CV.png'} alt='Curriculum Vitae' /></a>
         <a href='tel:+33763205410'><img className={Styles.contactLogo} src={process.env.PUBLIC_URL + '/images/Phone.png'} alt='Phone' /></a>
         <a href='mailto:jessegodais@gmail.com'><img className={Styles.contactLogo} src={process.env.PUBLIC_URL + '/images/Mail.png'} alt='Mail' /></a>
         <a href='https://github.com/GohanJesse'><img className={Styles.contactLogo} src={process.env.PUBLIC_URL + '/images/GithubChat.png'} alt='Github' /></a>
