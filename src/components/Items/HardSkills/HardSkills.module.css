@@ -1,0 +1,57 @@
+.hardSkillsBloc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 20px 5px;
+    grid-gap: 15px;
+    border: solid 1px #975ab6;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.logoHeight {
+    height: 60px;
+}
+
+.logoWidth {
+    height: 40px;
+}
+
+@media screen and (max-width: 1100px) {
+    .hardSkillsBloc {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        grid-gap: 20px;
+        width: 100%;
+
+    }
+    .logoHeight {
+        height: 50px;
+    }
+    .logoWidth {
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    /* Styles pour tablettes en mode paysage */
+}
+
+
+@media screen and (max-width: 768px) {
+    .hardSkillsBloc {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        grid-gap: 10px;
+        width: 100%;
+
+    }
+    .logoHeight {
+        height: 50px;
+    }
+    .logoWidth {
+        height: 30px;
+    }
+}

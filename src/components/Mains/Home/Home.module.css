@@ -1,0 +1,169 @@
+.homeMain {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-bottom: 60px;
+}
+
+.sectionTitle {
+  display: flex;
+  font-family: "Lastica", sans-serif;
+  color: #975ab6;
+  border-bottom: 1px solid #975ab6;
+  width: 100%;
+  justify-self: flex-start;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.skillTrainingBloc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  grid-gap: 30px;
+  width: 50%;
+}
+
+.skillSection {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  grid-gap: 30px;
+  width: 100%;
+}
+
+.SkillsBloc {
+  display: flex;
+  align-items: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  grid-gap: 25px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+.trainingSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 0 20px 0;
+  grid-gap: 30px;
+  width: 100%;
+}
+
+.carrousel {
+  width: 10 0%;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutBloc {
+  width: 40%;
+}
+
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px 0 20px 0;
+  grid-gap: 20px;
+}
+
+.presentation {
+  display: flex;
+}
+
+img {
+  height: 200px;
+}
+
+.name {
+  font-family: "Lastica", sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.job {
+  font-family: "Lastica", sans-serif;
+  color: #975ab6;
+  font-size: 14px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  padding: 10px 0 0 10px;
+}
+
+.motiveBloc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Roboto", sans-serif;
+  grid-gap: 10px;
+  border-bottom: #975ab6 1px solid;
+  padding-bottom: 20px;
+}
+
+.hardSoft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 30px;
+  width: 100%;
+}
+
+@media (max-width: 1100px) {
+  .homeMain {
+    align-items: flex-start;
+  }
+  .aboutSection {
+    grid-gap: 15px
+  }
+  .hardSoft {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .homeMain {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .skillTrainingBloc {
+    width: 90%;
+  }
+  .hardSoft {
+    flex-direction: column;
+    width: 90%;
+    padding: 0 0 40px 0;
+    grid-gap: 20px;
+  }
+  .aboutBloc {
+    width: 90%;
+  }
+  .aboutSection {
+    padding: 0;
+    align-items: center;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+    grid-gap: 10px;
+  }
+}

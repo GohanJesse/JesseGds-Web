@@ -1,0 +1,56 @@
+.infoTraining {
+  height: auto;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.nameTrainingBloc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.iconGithub {
+  height: 50px;
+  width: 50px;
+}
+
+.nameTraining {
+  font-family: "Lastica", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 142.6%;
+  color: #975ab6;
+
+}
+
+.containerTag {
+  padding: 20px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .infoTraining {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .nameTraining {
+    font-size: 18px;
+  }
+
+  .containerTag {
+    padding: 15px 0;
+  }
+
+  .iconGithub {
+    height: 20px;
+    width: 20px;
+  }
+
+}

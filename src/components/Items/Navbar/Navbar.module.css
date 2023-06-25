@@ -1,0 +1,62 @@
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.navBar a {
+  color: #975ab6;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-family: "Lastica", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 142.6%;
+}
+
+.navBar .activeLink {
+  text-decoration: underline;
+}
+
+.linkIcon {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .navBar a {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .navBar {
+    grid-gap: 10px;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .navBar a {
+    font-size: 12px;
+  }
+
+  .logoHeader {
+    height: 100px;
+    width: 100px;
+  }
+
+  .linkName {
+    display: none;
+  }
+
+  .linkIcon {
+    display: block;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+
+

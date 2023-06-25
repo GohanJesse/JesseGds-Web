@@ -1,0 +1,10 @@
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Roboto', sans-serif;
+    grid-gap: 10px;
+    border-bottom: #975ab6 1px solid;
+    padding-bottom: 20px;
+}
