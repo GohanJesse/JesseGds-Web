@@ -1,5 +1,6 @@
 import React from "react";
 import Styles from "./Home.module.css";
+import { motion } from "framer-motion";
 
 import personalProjects from "../../../Data/personalProjects.json";
 import professionalProjects from "../../../Data/professionalProjects.json";
@@ -30,7 +31,7 @@ export default function Home() {
 
   return (
     <main className={Styles.homeMain}>
-      <div className={Styles.skillTrainingBloc}>
+      <motion.div initial={{ opacity: 1, x: -1100 }} animate={{ opacity: 1, x:0 }} className={Styles.skillTrainingBloc}>
         <section className={Styles.skillSection}>
           <h2 className={Styles.sectionTitle}>Mes competences</h2>
           <div className={Styles.skills}>
@@ -48,8 +49,8 @@ export default function Home() {
             />
           </div>
         </section>
-      </div>
-      <div className={Styles.aboutBloc}>
+      </motion.div>
+      <motion.div initial={{ opacity: 1, x: 1100 }} animate={{ opacity: 1, x:0 }} className={Styles.aboutBloc}>
         <section className={Styles.aboutSection}>
           <h2 className={Styles.sectionTitle}>Je suis ...</h2>
           <Identity personalData={personalData}/>
@@ -60,7 +61,7 @@ export default function Home() {
             <HardSkills page="home" />
           </div>
         </section>
-      </div>
+      </motion.div>
     </main>
   );
 }
