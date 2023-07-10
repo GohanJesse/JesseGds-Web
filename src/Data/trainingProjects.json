@@ -131,8 +131,21 @@
       "/images/Photo-03-KasaApp.png",
       "/images/Photo-04-KasaApp.png"
     ],
-    "description": "Descritpion du projet en question",
-    "difficulty": "ici, les complication",
+    "description": [
+      "Mon projet web était centré sur le développement d'une application en React. L'application a été initialement configurée avec Create React App et un dépôt GitHub associé. J'ai également intégré un fichier JSON contenant les données nécessaires pour le fonctionnement de l'application.",
+      "Dans le cadre du projet, j'ai ajouté React Router pour gérer la navigation entre les différentes pages de l'application. J'ai créé des routes pour diverses pages, y compris l'accueil, une page À propos, une page d'erreur, et les pages de détail des logements.",
+      "Pour la page d'accueil, j'ai créé des composants Banner et Card et affiché une liste de propriétés disponibles. J'ai également conçu un composant Collapse pour la page À propos, qui alterne entre deux états : ouvert et fermé.",
+      "Une page d'erreur a été mise en place pour gérer les erreurs de navigation et rediriger les utilisateurs vers cette page en cas de route inexistante. J'ai veillé à respecter scrupuleusement le design de la maquette pour cette page.",
+      "J'ai ensuite développé un carrousel interactif pour la page de détails des logements, avec des flèches de navigation et une numérotation dynamique des diapositives. Un clic sur les propriétés dans la page d'accueil redirige l'utilisateur vers la page de détail du logement.",
+      "J'ai terminé la page de logement en intégrant tous les éléments nécessaires et en réutilisant le composant Collapse créé précédemment. J'ai également ajouté une fonctionnalité pour gérer les erreurs d'identifiant de propriété et rediriger l'utilisateur vers la page d'erreur en cas d'identifiant incorrect.",
+      "Enfin, j'ai vérifié l'ensemble du site pour m'assurer que tout fonctionnait comme prévu, que le design correspondait à la maquette et que toutes les erreurs étaient correctement gérées. J'ai vérifié en particulier le bon fonctionnement des composants changeant d'état, comme le carrousel et les Collapses.",
+      "Le projet a été un succès et m'a permis de mettre en pratique et de consolider mes connaissances en React, la gestion des routes avec React Router et le développement d'interfaces utilisateur interactives."
+    ],
+    "difficulty": [
+      "Pour ce projet, la manipulations des props a été le plus important. J'ai donc passer beaucoup de temps pour apprendre à bien manipuler les données du documents .json fourni.",
+      "Pour ce qui est de l'intégration, je n'ai pas eu beaucoup de difficultés, enfin... pas plus que ça...!",
+      "Le déroulé du projet total à même été rapide."
+    ],
     "tags": ["REACT", "CSS", "JS"]
   },
   {
@@ -147,8 +160,18 @@
       "/images/Photo-03-MonVieuxGrimoire.png",
       "/images/Photo-04-MonVieuxGrimoire.png"
     ],
-    "description": "Descritpion du projet en question",
-    "difficulty": "ici, les complication",
+    "description": [
+      "J'ai commencé par configurer un environnement de développement et installer un serveur Node fonctionnel. Suivant les instructions du cours, j'ai créé les premières routes de mon application Express. Ensuite, j'ai installé et connecté une base de données MongoDB à mon application. Grâce à Mongoose, j'ai pu créer un modèle de données qui a rendu mon application dynamique.",
+      "L'étape suivante consistait à mettre en place une authentification sécurisée pour les utilisateurs. J'ai stocké les informations utilisateur dans la base de données, crypté les mots de passe, créé et envoyé des tokens d'authentification au front-end et sécurisé les routes de mon API.",
+      "Ensuite, j'ai ajouté une gestion des fichiers utilisateur à mon application. J'ai également optimisé les images envoyées par les utilisateurs, ce qui m'a permis de finaliser l'affichage, la création et la modification des livres.",
+      "J'ai ensuite travaillé sur l'ajout de la fonctionnalité de notation des livres. J'ai dû réfléchir attentivement à l'impact de cette fonctionnalité sur le modèle de données et les routes de mon application. De plus, j'ai dû m'assurer qu'un utilisateur ne puisse pas noter plusieurs fois le même livre.",
+      "Enfin, j'ai implémenté la fonctionnalité qui permet de calculer la note moyenne d'un livre. Après chaque nouvelle notation, la note moyenne du livre est recalculée et stockée. Cela a marqué la finalisation de mon projet, après avoir mis en place toutes les fonctionnalités nécessaires pour une application complète de gestion de livres."
+    ],
+    "difficulty": [
+      "Ce projet a été un défi intéressant pour moi, étant donné qu'il s'agissait de ma première incursion dans le back-end. Jusqu'à présent, mon expérience était principalement orientée vers le front-end, donc j'ai dû aborder ce projet avec une attention particulière pour comprendre en profondeur chaque étape.",
+      "Malgré certaines difficultés et des moments d'hésitation, j'ai pris le temps d'assimiler chaque nouveau concept et d'appliquer méthodiquement les instructions du cours. Cela m'a permis de surmonter les obstacles et de compléter le projet de manière satisfaisante.",
+      "Ce projet a été une expérience d'apprentissage très enrichissante pour moi, et je suis impatient de continuer à développer mes compétences en back-end."
+    ],
     "tags": ["Node.js", "Express", "API REST", "Mongodb", "Mongoose"]
   },
   {
@@ -158,8 +181,13 @@
     "urlGithub": "https://github.com/GohanJesse/JesseGds-Web",
     "cover": "/images/Photo-01-JesseGdsWeb.png",
     "pictures": ["/images/Photo-01-JesseGdsWeb.png"],
-    "description": "Descritpion du projet en question",
-    "difficulty": "ici, les complication",
+    "description": [
+      "Mon site actuel.",
+      "Il n'est pas fini et demande beaucoup de changement, mais je voulais présenter un travail terminé et en fonction.",
+      "Je pense à divers ajout qui peuvent améliorer l'aspect visuel et pratique avec un mode login/ logout et une modal d'ajout de contenu pour la partie Autodidacte.",
+      "J'aimerais faire la création d'une API et utilisé une bose de données pour alléger le code, monté en compétences et en performences."
+    ],
+    "difficulty": "Le plus galère pour moi la dessus, c'est clairement le design, d'où la volonté de travaiiller ça en autodidacte.",
     "tags": ["React", "CSS", "JS"]
   }
 ]
